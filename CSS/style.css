@@ -1,0 +1,526 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+}
+
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#backgroundDisplay {
+  margin: 0 0 50px 0;
+  width: 420px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #000000;
+  padding-left: 15px;
+  align-items: start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#displaySystem {
+  background: none;
+  
+}
+
+.spans {
+  background: none;
+  font-family: "Open 24 Display St";
+  color: #6e0000;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+#value {
+  font-family: "Open 24 Display St";
+  font-size: 40px;
+  font-weight: 700;
+}
+
+
+.titles {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+
+}
+
+button {
+  margin: 10px 1px 0 1px;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+#preferential-button {
+  color: #ffffff;
+  background-color: #a50000;
+  border: 1px solid #000000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#preferential-button:hover {
+  color: #ffffff;
+  background-color: #460202;
+  border: 1px solid #ffffff;
+}
+
+#bottom-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+#bottom-buttons div {
+  margin: 40px 30px 0 30px;
+ 
+}
+
+@media (min-width: 2560px) {
+
+ 
+   #backgroundDisplay {
+     width: 700px;
+     height: 400px;
+     margin: 0px 0 50px 0;
+     padding-left: 30px;
+   }
+ 
+   .spans {
+     font-size: 100px;
+   } 
+ 
+   .titles {
+     font-size: 60px;
+   }
+ 
+   #value {
+     font-size: 60px;
+   }
+
+   button {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+  }
+   
+   #bottom-buttons div {
+     margin: 60px 80px 0 80px;
+   }
+
+   #bottom-buttons div .titles {
+    font-size: 40px;
+  }
+
+  #bottom-buttons div button {
+    margin-right: 10px;
+  }
+      
+ }
+
+ @media (max-width:1400px) {
+  #bottom-buttons div {
+    margin-top: 30px ;
+  }
+ }
+
+ @media (max-width:1024px) {
+
+  body {
+   padding: 30px;
+  }
+ 
+   #backgroundDisplay {
+     width: 370px;
+     height: 250px;
+
+   }
+ 
+   .spans {
+     font-size: 75px;
+   } 
+ 
+   .titles {
+     font-size: 20px;
+   }
+ 
+   #value {
+     font-size: 35px;
+   }
+   
+   #bottom-buttons div {
+     margin: 60px 20px 0 20px;
+   }
+
+   #bottom-buttons div .titles {
+    font-size: 20px;
+  }
+   
+   button {
+     margin: 5px 0 0 0;
+     padding: 5px;
+     font-size: 15px;
+   }
+   
+ }
+
+ @media (max-width:768px) {
+
+  body {
+   padding: 30px;
+  }
+ 
+   #backgroundDisplay {
+     width: 316px;
+     height: 235px;
+   }
+ 
+   .spans {
+     font-size: 60px;
+   } 
+ 
+   .titles {
+     font-size: 20px;
+   }
+ 
+   #value {
+     font-size: 30px;
+   }
+   
+   #bottom-buttons div {
+     margin: 60px 20px 0 20px;
+   }
+
+   #bottom-buttons div .titles {
+    font-size: 20px;
+  }
+   
+   button {
+     margin: 5px 0 0 0;
+     padding: 5px;
+     font-size: 15px;
+   }
+   
+ }
+
+ @media (max-width:467px) {
+
+  body {
+   padding: 30px;
+  }
+ 
+   #backgroundDisplay {
+     width: 320px;
+     height: 220px;
+   }
+ 
+   .spans {
+     font-size: 60px;
+   } 
+ 
+   .titles {
+     font-size: 20px;
+   }
+ 
+   #value {
+     font-size: 30px;
+   }
+   
+   #bottom-buttons div {
+     margin: 60px 5px 0 5px;
+   }
+
+   #bottom-buttons div .titles {
+    font-size: 20px;
+  }
+
+  #bottom-buttons button {
+    display: flex;
+    flex-direction: column;
+  }
+   
+   button {
+     margin: 5px 0 0 0;
+     padding: 5px;
+     font-size: 15px;
+   }
+   
+ }
+
+@media (max-width:425px) {
+
+  body {
+   padding: 30px;
+  }
+ 
+  #backgroundDisplay {
+    width: 320px;
+    height: 220px;
+  }
+ 
+   .spans {
+     font-size: 60px;
+   } 
+ 
+   .titles {
+     font-size: 20px;
+   }
+ 
+   #value {
+     font-size: 30px;
+   }
+   
+   #bottom-buttons div {
+     margin: 60px 5px 0 5px;
+   }
+
+   #bottom-buttons div .titles {
+    font-size: 20px;
+  }
+   
+   button {
+     margin: 5px 0 0 0;
+     padding: 5px;
+     font-size: 15px;
+   }
+   
+ }
+
+ @media (max-width:375px) {
+
+  body {
+    padding: 30px;
+   }
+  
+  #backgroundDisplay {
+    width: 320px;
+    height: 215px;
+  }
+ 
+  .spans {
+     font-size: 60px;
+   } 
+
+   #value {
+    font-size: 30px;
+  }
+   
+ 
+   .titles {
+     font-size: 20px;
+   }
+
+   button {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    font-size: 15px;
+  }
+ 
+
+    #bottom-buttons div {
+      margin: 60px 5px 0 5px;
+    }
+ 
+    #bottom-buttons div .titles {
+     font-size: 18px;
+   }
+      
+ }
+
+ @media (max-width:349px) {
+
+  body {
+   padding: 30px;
+  }
+ 
+  #backgroundDisplay {
+    width: 260px;
+    height: 190px;
+  }
+ 
+   .spans {
+     font-size: 50px;
+   } 
+
+   #value {
+    font-size: 25px;
+  }
+
+ 
+   .titles {
+     font-size: 20px;
+   }
+    
+   button {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+   
+   #bottom-buttons div {
+     margin: 60px 5px 0 5px;
+   }
+ 
+   #bottom-buttons div .titles {
+     font-size: 15px;
+   }
+   
+ }
+
+@media (max-width:320px) {
+
+ body {
+  padding: 30px;
+ }
+
+  #backgroundDisplay {
+    width: 230px;
+    height: 165px;
+  }
+
+  .spans {
+    font-size: 40px;
+  } 
+
+  #value {
+    font-size: 20px;
+  }
+
+  .titles {
+    font-size: 15px;
+  }
+
+  button {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+   
+  #preferential-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  #bottom-buttons div {
+    margin: 60px 5px 0 5px;
+  }
+
+  #bottom-buttons div .titles {
+    font-size: 15px;
+  }
+
+
+}
+
+@media (max-width:305px) {
+
+  body {
+    padding: 15px;
+    
+  }
+
+  #backgroundDisplay {
+    width: 215px;
+    height: 150px;
+  }
+
+  .spans {
+    font-size: 40px;
+  }
+
+  #value {
+    font-size: 20px;
+  }
+
+  .titles {
+    font-size: 15px;
+  }
+
+  button {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+    
+  #preferential-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  #bottom-buttons div {
+    margin: 60px 5px 0 5px;
+  }
+  
+  #bottom-buttons div .titles {
+    font-size: 15px;
+  }
+
+ }
+
+@media (max-width:280px) {
+
+  body {
+    padding: 15px;
+  }
+
+  #backgroundDisplay {
+    width: 215px;
+    height: 180px;
+  }
+
+  .spans {
+    font-size: 35px;
+  }
+
+  #value {
+    font-size: 18px;
+  }
+
+  .titles {
+    font-size: 15px;
+  }
+  
+  button {
+    margin: 5px 0 0 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  #preferential-button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  #bottom-buttons div {
+    margin: 60px 5px 0 5px;
+  }
+  
+  #bottom-buttons div .titles {
+    font-size: 15px;
+  }
+
+ }

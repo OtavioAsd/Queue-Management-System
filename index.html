@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://www.dafont.com/pt/open-24-display-st.font" />
+    <script src="./JS/index.js" defer></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Sistema Guichê e Senhas</title>
+  </head>
+  <body>
+    <div id="backgroundDisplay">
+      <div id="displaySystem">     
+        <span id="window" class="spans" >Guichê: G00</span><br />
+        <span id="value"  class="spans" ></span><br />
+        <span id="ticket" class="spans" >Senha: 000</span>   
+      </div>
+    </div>
+    
+
+  <h4 class="titles">Retire sua senha</h4>
+
+  <button id="standard-button">Normal</button>
+  <button id="preferential-button">Preferêncial</button>
+
+  <div id="bottom-buttons">
+    <div>
+      <h4 class="titles">Guichê 1</h4> 
+      
+        <button class="next-ticket">Chama</button>
+        <button class="repeat-ticket">Repete</button>
+    </div> 
+
+    <div>
+      <h4 class="titles">Guichê 2</h4> 
+        <button class="next-ticket">Chama</button>
+        <button class="repeat-ticket">Repete</button>
+    </div>
+
+    <div>
+      <h4 class="titles">Guichê 3</h4>
+        <button class="next-ticket">Chama</button>
+        <button class="repeat-ticket">Repete</button>
+      </div>
+    </div>
+    <audio id="queue-audio">
+      <source src="./AUDIO/sound.mp3" type="audio/mp3" />
+      Seu navegador não suporta a tag de áudio.
+    </audio>
+    
+  </body>
+</html>
