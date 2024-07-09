@@ -5,6 +5,10 @@
   background-color: #222222;
 }
 
+@font-face {
+  font-family: open24;
+  src: url(/FONT/Open\ 24\ Display\ St.ttf);
+}
 
 body {
   min-height: 100vh;
@@ -36,14 +40,14 @@ body {
 
 .spans {
   background: none;
-  font-family: "Open 24 Display St";
+  font-family: "open24";
   color: #6e0000;
   font-size: 80px;
   font-weight: 700;
 }
 
 #value {
-  font-family: "Open 24 Display St";
+  font-family: "open24";
   font-size: 40px;
   font-weight: 700;
 }
