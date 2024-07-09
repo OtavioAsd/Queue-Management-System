@@ -40,14 +40,14 @@ body {
 
 .spans {
   background: none;
-  font-family: "open24";
+  font-family: "open24" sans-serif;
   color: #6e0000;
   font-size: 80px;
   font-weight: 700;
 }
 
 #value {
-  font-family: "open24";
+  font-family: "open24" sans serif ;
   font-size: 40px;
   font-weight: 700;
 }
