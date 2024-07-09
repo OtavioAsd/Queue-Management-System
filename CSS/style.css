@@ -8,6 +8,8 @@
 @font-face {
   font-family: open24;
   src: url(/FONT/Open\ 24\ Display\ St.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -40,14 +42,14 @@ body {
 
 .spans {
   background: none;
-  font-family: "Open24", sans-serif;
+  font-family: "open24", sans-serif;
   color: #6e0000;
   font-size: 80px;
   font-weight: 700;
 }
 
 #value {
-  font-family: "Open24", sans-serif;
+  font-family: "open24", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
