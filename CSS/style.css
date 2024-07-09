@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'digital';
-  src: url('/FONT/Open 24 Display St.ttf') format('truetype');
+  src: url('../FONT/Open 24 Display St.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
