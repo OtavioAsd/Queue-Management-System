@@ -5,11 +5,11 @@
   background-color: #222222;
 }
 
-@import url(https://www.dafont.com/open-24-display-st.font);
+
 
 @font-face {
-  font-family: 'open24';
-  src: url(/FONT/Open\ 24\ Display\ St.ttf) format('truetype');
+  font-family: 'digital';
+  src: url('/FONT/Open 24 Display St.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -44,14 +44,14 @@ body {
 
 .spans {
   background: none;
-  font-family: "open24", sans-serif;
+  font-family: "digital", sans-serif;
   color: #6e0000;
   font-size: 80px;
   font-weight: 700;
 }
 
 #value {
-  font-family: "open24", sans-serif;
+  font-family: 'digital', sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
