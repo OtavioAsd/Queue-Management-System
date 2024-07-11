@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "digital";
-  src: url("/FONT/digital-24.ttf") format("truetype");
+  src: url("../FONT/digital-24.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
